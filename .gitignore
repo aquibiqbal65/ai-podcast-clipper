@@ -41,6 +41,7 @@ ai-podcast-clipper-backend/*.pyc
 ai-podcast-clipper-backend/*.pyo
 ai-podcast-clipper-backend/*.pyd
 ai-podcast-clipper-backend/.venv/
+ai-podcast-clipper-backend/asd
 ai-podcast-clipper-backend/venv/
 ai-podcast-clipper-backend/env/
 ai-podcast-clipper-backend/*.env
