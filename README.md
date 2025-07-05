@@ -1,6 +1,6 @@
 # AI Podcast Clipper
 
-![thumbnail of AI Podcast Clipper](ai-podacast-clipper-frontend/public/thumbnail.png)
+![thumbnail of AI Podcast Clipper](ai-podcast-clipper-frontend/public/thumbnail.png)
 
 ## Overview
 
