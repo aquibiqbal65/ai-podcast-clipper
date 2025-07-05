@@ -1,10 +1,6 @@
 # AI Podcast Clipper
 
-![alt text](thumbnail.png)
-
-[Link to video](https://youtu.be/PeFZcvWucoU)
-
-[Discord and more](https://www.andreastrolle.com/)
+![thumbnail of AI Podcast Clipper](images/thumbnail.png)
 
 ## Overview
 
@@ -30,6 +26,15 @@ Features:
 - 🌐 FastAPI endpoint for podcast processing
 - 🎨 Modern UI with Tailwind CSS & Shadcn UI
 
+## 🧠 Folder Structure
+
+```
+.
+├── ai-podcast-clipper-backend/   # FastAPI + Modal jobs + WhisperX + LR-ASD
+├── ai-podcast-clipper-frontend/  # Next.js 15 + Tailwind + ShadCN + Inngest queue
+```
+
+
 ## Setup
 
 Follow these steps to install and set up the project.
@@ -37,7 +42,7 @@ Follow these steps to install and set up the project.
 ### Clone the Repository
 
 ```bash
-git clone --recurse-submodules https://github.com/Andreaswt/ai-podcast-clipper-saas.git
+git clone --recurse-submodules https://github.com/aquibiqbal65/ai-podcast-clipper.git
 ```
 
 ### Install Python
@@ -72,6 +77,8 @@ Modal setup:
 ```bash
 modal setup
 ```
+.env setup:
+extract your personal api keys
 
 Run on Modal:
 
@@ -108,6 +115,22 @@ Run the local queue development server with Inngest:
 cd ai-podcast-clipper-frontend
 npm run inngest-dev
 ```
+
+## Tips
+
+For local runs switch Prisma DB to sqlite.
+
+For more file run info refer to the NPM SCRIPTS.
+
+
+## 🎨 Custom Theme (Optional)
+
+Wanna vibe it your way?
+
+1. Go to [tweakcn.com/editor/theme](https://tweakcn.com/editor/theme)
+2. Pick a theme, export the CSS.
+3. Replace contents of `src/styles/global.css` with the new CSS.
+4. Restart dev server
 
 ## AWS Setup
 
@@ -164,8 +187,20 @@ IAM user policy to upload, download and list bucket items:
 
 [Create an API key for Gemini](https://ai.google.dev/gemini-api/docs/quickstart?lang=python)
 
-# Videos used for testing / thumbnail
 
-[MI6 Secret Agent Talks About the World's Darkest Secrets](https://www.youtube.com/watch?v=-vMgbJ6WqN4)
+---
 
-[Janney Sanchez | Therapy saved my life, From Rivera to Sanchez , Living in my Moms Shadow | Ep.198](https://www.youtube.com/watch?v=SOG0GmKts_I)
+## 📬 Contribute
+
+Pull up if you're vibing with this project:  
+- 🐞 Found a bug? Submit an issue.  
+- 🎁 Feature idea? Drop a PR.  
+- 💬 Want to improve UX/UI? All eyes welcome.
+
+---
+
+## 📢 Connect
+
+DM me on GitHub or drop a line in issues.  
+Keep creating. Stay legendary.  
+Peace ✌️
