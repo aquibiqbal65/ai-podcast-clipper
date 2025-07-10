@@ -31,9 +31,9 @@ const NavHeader = ({ credits, email }: { credits: number; email: string }) => {
       <div className="container flex h-16 items-center justify-between px-4 py-2">
         <Link href="/dashboard" className="flex items-center">
           <div className="font-sans text-xl font-medium tracking-tight">
-            <span className="text-foreground">podcast</span>
-            <span className="font-light text-gray-500">/</span>
-            <span className="text-foreground font-light">clipper</span>
+            <span className="text-primary font-bold">PodCut</span>
+            <span className="font-light text-gray-500">-</span>
+            <span className="text-gray-500 font-medium">AI</span>
           </div>
         </Link>
 

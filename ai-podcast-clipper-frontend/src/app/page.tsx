@@ -20,7 +20,7 @@ export default function HomePage() {
       <div className="flex flex-col justify-center items-center flex-grow text-center px-4 pt-100 sm:pt-70">
         <h1 className="text-3xl sm:text-6xl font-extrabold leading-tight max-w-4xl">
           Turn Podcasts into Viral Clips with{" "}
-          <span className="text-[hsl(280,100%,70%)]">AI Podcast Clipper</span>
+          <span className="text-[hsl(280,100%,70%)]">PodCut-AI</span>
         </h1>
       </div>
 
@@ -47,7 +47,7 @@ export default function HomePage() {
           <div className="rounded-sm hover:translate-y-2 hover:scale-105 duration-200 bg-white/10 p-6 hover:bg-white/20 transition-all">
             <h3 className="text-xl font-semibold mb-2">2. Let AI Work</h3>
             <p className="text-sm text-gray-300">
-              Our AI scans the video, finds engaging clips, punchlines, and visual hooks, along with the subtitles.
+              Our AI scans the video, finds engaging clips, punchlines, and visual hooks, along with the subtitles. (usually takes 5 to 7 minutes)
             </p>
           </div>
           <div className="rounded-sm hover:translate-y-2 hover:scale-105 duration-200 bg-white/10 p-6 hover:bg-white/20 transition-all">
